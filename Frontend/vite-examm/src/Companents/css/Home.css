@@ -1,0 +1,246 @@
+.home {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  background-color: #f6214b;
+  gap: 50px;
+}
+
+.home__img {
+  width: 750px;
+}
+
+.hometxt {
+  width: 700px;
+  height: 800px;
+  display: flex;
+  align-items: center;
+}
+.hometxt div h1 {
+  color: white;
+  font-size: 70px;
+}
+.hometxt div p {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.hometxt div button {
+  margin-top: 20px;
+  background-color: white;
+  width: 150px;
+  height: 40px;
+  color: black;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.homebtn:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.crud__head {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.head {
+  width: 660px;
+  height: 150px;
+  text-align: center;
+}
+.head h2 {
+  font-size: 30px;
+}
+.head p {
+  color: grey;
+}
+
+.crud__middle {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.crud {
+  width: 100%;
+  height: 100vh;
+}
+
+.cards {
+  width: 1100px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 255px;
+  height: 360px;
+}
+
+.cardbody .desc {
+  color: grey;
+}
+.cardbody .wish {
+  padding: 10px;
+  border: none;
+  background-color: #f6214b;
+  color: white;
+  cursor: pointer;
+}
+.cardbody .deletebtn {
+  padding: 10px;
+  border: 1px solid red;
+  background-color: transparent;
+  color: red;
+  cursor: pointer;
+}
+
+.feature {
+  width: 100%;
+  height: 100vh;
+}
+
+.feature__header {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature__head {
+  text-align: center;
+  width: 855px;
+  height: 140px;
+}
+.feature__head h2 {
+  font-size: 40px;
+}
+.feature__head p {
+  color: grey;
+  font-size: 20px;
+}
+
+.services {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services__cards {
+  width: 1100px;
+  height: 410px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.services__card {
+  width: 289px;
+  height: 200px;
+}
+.services__card p {
+  color: grey;
+  margin-top: 20px;
+}
+
+.news {
+  width: 100%;
+  height: 850px;
+}
+
+.news__header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.news__head {
+  width: 730px;
+  height: 75px;
+  text-align: center;
+}
+.news__head p {
+  color: grey;
+}
+.news__head h2 {
+  font-size: 40px;
+}
+
+.news__cards {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 20px;
+}
+
+.news__card {
+  width: 500px;
+  height: 517px;
+}
+
+.news__img {
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.news__divs {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+}
+.news__divs .new__div {
+  width: 70px;
+  height: 20px;
+  color: white;
+  background-color: #f6214b;
+}
+.news__divs .new__div:hover {
+  color: black;
+  background-color: transparent;
+}
+
+.news__body h3 {
+  margin-top: 10px;
+}
+.news__body p {
+  margin-top: 10px;
+}
+
+.search {
+  width: 200px;
+  height: 50px;
+}
+
+.filter {
+  background-color: transparent;
+  color: blue;
+  border: 1px solid blue;
+  cursor: pointer;
+  padding: 10px;
+}/*# sourceMappingURL=Home.css.map */
